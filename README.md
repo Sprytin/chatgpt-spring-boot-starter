@@ -35,7 +35,7 @@ class ExampleService(
 ) 
 ```
 
-+ Simple ask
++ Request example
 ```kotlin
 fun example() {
     val response = gptService.askGpt(
