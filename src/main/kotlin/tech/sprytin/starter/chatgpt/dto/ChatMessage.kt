@@ -3,7 +3,7 @@ package tech.sprytin.starter.chatgpt.dto
 import com.fasterxml.jackson.annotation.JsonValue
 
 data class ChatMessage(
-    val role: ChatMessageRole,
+    val role: ChatMessageRole = ChatMessageRole.USER,
     val content: String
 )
 

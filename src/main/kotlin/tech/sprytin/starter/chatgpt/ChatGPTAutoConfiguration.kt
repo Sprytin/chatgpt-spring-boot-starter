@@ -21,5 +21,5 @@ class ChatGPTAutoConfiguration {
             .build()
 
     @Bean
-    fun chatGPTService(gptWebClient: WebClient) = ChatGPTService(gptWebClient)
+    fun gptService(gptWebClient: WebClient) = GptService(gptWebClient)
 }
