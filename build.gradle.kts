@@ -9,7 +9,7 @@ plugins {
     kotlin("plugin.spring") version "1.7.22"
 }
 
-val libVersion = "0.1.0-BETA"
+val libVersion = "0.1.1-BETA"
 
 group = "tech.sprytin.starter"
 version = libVersion
@@ -44,6 +44,7 @@ val bootJar: BootJar by tasks
 
 bootJar.enabled = false
 jar.enabled = true
+jar.archiveClassifier.set("")
 
 publishing {
     publications {
