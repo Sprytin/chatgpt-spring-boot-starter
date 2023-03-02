@@ -9,7 +9,7 @@ plugins {
     kotlin("plugin.spring") version "1.7.22"
 }
 
-val libVersion = "0.1.1-BETA"
+val libVersion = "0.1.2-BETA"
 
 group = "tech.sprytin.starter"
 version = libVersion
